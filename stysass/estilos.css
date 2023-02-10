@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+/*font-family: 'Dancing Script', cursive;*/
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+/**font-family: 'Great Vibes', cursive;*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+/*font-family: 'Raleway', sans-serif;*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #BFB0B0;
+  width: 100vw;
+  font-family: "Raleway", sans-serif;
+}
+header .logo {
+  font-family: "Great Vibes", cursive;
+  font-size: 70px;
+  text-align: center;
+  padding-block: 0.5rem;
+}
+header .logo a {
+  text-decoration: none;
+  color: #F2F2F2;
+}
+header .barra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+header .barra li {
+  list-style: none;
+  display: inline-block;
+  padding: 1rem;
+}
+header .barra li a {
+  text-decoration: none;
+  color: #F2F2F2;
+}
+header .barra li a:hover {
+  color: #AB5F6A;
+}
+header .hamburguesa {
+  display: none;
+}
+
+/*Final de header general*//*# sourceMappingURL=estilos.css.map */
