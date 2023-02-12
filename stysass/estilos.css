@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
 /*font-family: 'Dancing Script', cursive;*/
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
@@ -14,6 +15,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/*Header general*/
 header {
   display: flex;
   justify-content: center;
@@ -54,4 +56,98 @@ header .hamburguesa {
   display: none;
 }
 
-/*Final de header general*//*# sourceMappingURL=estilos.css.map */
+/*Final de header general*/
+/*Footer general de todas las páginas*/
+footer {
+  background-color: #BFB0B0;
+  color: #F2F2F2;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+footer .redes p {
+  margin-bottom: 10px;
+}
+footer .redes a {
+  font-size: 35px;
+  letter-spacing: 10px;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+/*Fin del footer general*/
+/*Flecha arriba*/
+.subir {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 40px;
+  text-align: center;
+  line-height: 35px;
+  color: #AB5F6A;
+}
+
+/*Fin flecha arriba*/
+/*Main de contacto*/
+.contacto {
+  background-color: #f2f2f2;
+  font-family: "Raleway", sans-serif;
+  padding-inline: 3rem;
+  padding-block: 3rem;
+}
+.contacto h2 {
+  font-size: 70px;
+  color: #AB5F6A;
+  font-family: "Dancing Script", cursive;
+  padding-bottom: 1rem;
+}
+.contacto section {
+  display: flex;
+  gap: 3rem;
+}
+.contacto section p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.contacto section .info-cont {
+  gap: 2rem;
+}
+.contacto section .info-cont i {
+  font-size: 35px;
+  color: #AB5F6A;
+}
+.contacto section .info-cont h3 {
+  color: #AB5F6A;
+  font-size: 25px;
+  font-weight: 600;
+}
+.contacto section .info-cont h4 {
+  font-size: 20px;
+  font-weight: 550;
+}
+.contacto section .info-cont p {
+  font-size: 18px;
+}
+.contacto section .form {
+  display: flex;
+  font-size: 20px;
+  font-weight: 550;
+}
+.contacto section .form .btn {
+  background: #CDA2A9;
+  color: #F2F2F2;
+  font-weight: 500;
+}
+.contacto .mapas {
+  padding-block: 2rem;
+}
+.contacto .mapas p {
+  font-size: 30px;
+  color: #AB5F6A;
+  font-weight: 550;
+}
+
+/*Fin de main contacto*/
+
+/*# sourceMappingURL=estilos.css.map */

@@ -12,6 +12,7 @@
 html{
     scroll-behavior: smooth;
 }
+/*Header general*/
 header{
     display: flex;
     justify-content: center;
@@ -52,3 +53,94 @@ header{
     }
 }
 /*Final de header general*/
+/*Footer general de todas las páginas*/
+footer{
+    background-color: #BFB0B0;
+    color: #F2F2F2;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+    text-align: center;
+    .redes{
+        p{
+            margin-bottom: 10px;
+        }
+        a{
+            font-size: 35px;
+            letter-spacing: 10px;
+            color: #f2f2f2;
+            text-decoration: none;
+        }
+    }
+}
+/*Fin del footer general*/
+/*Flecha arriba*/
+.subir{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 35px;
+    color: #AB5F6A;
+}
+/*Fin flecha arriba*/
+/*Main de contacto*/
+.contacto{
+    background-color: #f2f2f2;
+    font-family: 'Raleway', sans-serif;
+    padding-inline: 3rem;
+    padding-block: 3rem;
+    h2{
+        font-size: 70px;
+        color: #AB5F6A;
+        font-family: 'Dancing Script', cursive;
+        padding-bottom: 1rem;
+    }
+    section{
+        display: flex;
+        gap: 3rem;
+        p{
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .info-cont{
+        gap: 2rem;
+            i{
+            font-size: 35px;
+            color: #AB5F6A;
+            }
+            h3{
+            color: #AB5F6A;
+            font-size: 25px;
+            font-weight: 600;
+            }
+            h4{
+            font-size: 20px;
+            font-weight: 550;
+            }
+            p{
+            font-size: 18px;
+            }
+        }
+        .form{
+        display: flex;
+        font-size: 20px;
+        font-weight: 550;
+            .btn{
+                background: #CDA2A9;
+                color: #F2F2F2;
+                font-weight: 500;
+            }
+        }
+    }
+    .mapas{
+        padding-block: 2rem;
+        p{
+            font-size: 30px;
+            color: #AB5F6A;
+            font-weight: 550;
+        }
+    }
+}
+/*Fin de main contacto*/
