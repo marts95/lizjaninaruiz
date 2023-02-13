@@ -24,6 +24,9 @@ header{
         font-size: 70px;
         text-align: center;
         padding-block: 0.5rem;
+        img{
+            height: 70px;
+        }
         a{
             text-decoration: none;
             color: #F2F2F2;
@@ -85,6 +88,13 @@ footer{
     color: #AB5F6A;
 }
 /*Fin flecha arriba*/
+/*Main aranceles*/
+.aranceles{
+    .portada{
+        background-image: url(../fotos/communication-1991849_19201.png);
+    }
+}
+/*Fin de main aranceles*/
 /*Main de contacto*/
 .contacto{
     background-color: #f2f2f2;
