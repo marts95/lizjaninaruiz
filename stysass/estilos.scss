@@ -136,11 +136,121 @@ footer{
     }
     .mapas{
         padding-block: 2rem;
-        p{
-            font-size: 30px;
-            color: #AB5F6A;
-            font-weight: 550;
-        }
+        width: 100%;
+        display: inline-block;
+        .mapa{
+            height: 350px;
+            p{
+                font-size: 30px;
+                color: #AB5F6A;
+                font-weight: 550;
+            }
+            iframe{
+                height: 250px;
+            }
+    }
     }
 }
 /*Fin de main contacto*/
+/*Media queries*/
+@media screen and (max-width: 980px) {
+    /*headear*/
+    header{
+        .barra{
+            font-size: 25px;
+        }
+    }
+    /*Fin de header*/
+    /*Contacto*/
+    .contacto{
+        section{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    /*fin de contacto*/
+}
+@media screen and (max-width: 850px) {
+    /*headear*/
+    header{
+        .barra{
+            font-size: 20px;
+        }
+    }
+}
+@media screen and (max-width: 720px) {
+    /*Menu hamburguesa*/
+    header{
+        .encabezado{
+            display: none;
+        }
+        .hamburguesa{
+        display: flex;
+        height: 100px;
+        .navbar{
+            background-color: #BFB0B0;
+            width: 100vw;
+            font-family: 'Raleway', sans-serif;
+            .navbar-brand{
+                font-family: 'Great Vibes', cursive;
+                font-size: 30px;
+                text-align: center;
+                padding-block: 0.5rem;
+                color: #F2F2F2;
+            }
+           
+            .navbar{
+                background-color: #BFB0B0;
+            }
+            .offcanvas{
+                background-color: #BFB0B0;
+                .offcanvas-title{
+                    color: #AB5F6A;
+                    font-size: 30px;
+                    font-weight: 600;
+                }
+                .nav-link{
+                    color: #f2f2f2;
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+            }
+        }
+        }
+    }
+    /*Fin de menú hamburguesa*/
+    /*main de Contacto*/
+    .contacto{
+        h2{
+            font-size: 50px;
+        }
+        section{
+            p{
+                font-size: 17px;
+                font-weight: 400;
+            }
+            .info-cont{
+                i{
+                font-size: 30px;
+                color: #AB5F6A;
+                }
+                h3{
+                color: #AB5F6A;
+                font-size: 23px;
+                font-weight: 600;
+                }
+                h4{
+                font-size: 17px;
+                font-weight: 550;
+                }
+                p{
+                font-size: 16px;
+                }
+            }
+            form{
+                font-size: 18px;
+            }
+        }
+    }
+    /*fin de main de contacto*/
+}

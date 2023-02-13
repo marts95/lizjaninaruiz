@@ -23,16 +23,19 @@ header {
   width: 100vw;
   font-family: "Raleway", sans-serif;
 }
+
 header .logo {
   font-family: "Great Vibes", cursive;
   font-size: 70px;
   text-align: center;
   padding-block: 0.5rem;
 }
+
 header .logo a {
   text-decoration: none;
   color: #F2F2F2;
 }
+
 header .barra {
   display: flex;
   flex-direction: column;
@@ -40,18 +43,22 @@ header .barra {
   justify-content: center;
   font-size: 30px;
 }
+
 header .barra li {
   list-style: none;
   display: inline-block;
   padding: 1rem;
 }
+
 header .barra li a {
   text-decoration: none;
   color: #F2F2F2;
 }
+
 header .barra li a:hover {
   color: #AB5F6A;
 }
+
 header .hamburguesa {
   display: none;
 }
@@ -66,9 +73,11 @@ footer {
   padding: 20px;
   text-align: center;
 }
+
 footer .redes p {
   margin-bottom: 10px;
 }
+
 footer .redes a {
   font-size: 35px;
   letter-spacing: 10px;
@@ -96,56 +105,167 @@ footer .redes a {
   padding-inline: 3rem;
   padding-block: 3rem;
 }
+
 .contacto h2 {
   font-size: 70px;
   color: #AB5F6A;
   font-family: "Dancing Script", cursive;
   padding-bottom: 1rem;
 }
+
 .contacto section {
   display: flex;
   gap: 3rem;
 }
+
 .contacto section p {
   font-size: 20px;
   font-weight: 400;
 }
+
 .contacto section .info-cont {
   gap: 2rem;
 }
+
 .contacto section .info-cont i {
   font-size: 35px;
   color: #AB5F6A;
 }
+
 .contacto section .info-cont h3 {
   color: #AB5F6A;
   font-size: 25px;
   font-weight: 600;
 }
+
 .contacto section .info-cont h4 {
   font-size: 20px;
   font-weight: 550;
 }
+
 .contacto section .info-cont p {
   font-size: 18px;
 }
+
 .contacto section .form {
   display: flex;
   font-size: 20px;
   font-weight: 550;
 }
+
 .contacto section .form .btn {
   background: #CDA2A9;
   color: #F2F2F2;
   font-weight: 500;
 }
+
 .contacto .mapas {
   padding-block: 2rem;
+  width: 100%;
+  display: inline-block;
 }
-.contacto .mapas p {
+
+.contacto .mapas .mapa {
+  height: 350px;
+}
+
+.contacto .mapas .mapa p {
   font-size: 30px;
   color: #AB5F6A;
   font-weight: 550;
 }
 
-/*Fin de main contacto*//*# sourceMappingURL=estilos.css.map */
+.contacto .mapas .mapa iframe {
+  height: 250px;
+}
+
+/*Fin de main contacto*/
+/*Media queries*/
+@media screen and (max-width: 980px) {
+  /*headear*/
+  header .barra {
+    font-size: 25px;
+  }
+  /*Fin de header*/
+  /*Contacto*/
+  .contacto section {
+    display: flex;
+    flex-direction: column;
+  }
+  /*fin de contacto*/
+}
+@media screen and (max-width: 850px) {
+  /*headear*/
+  header .barra {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 720px) {
+  /*Menu hamburguesa*/
+  header .encabezado {
+    display: none;
+  }
+  header .hamburguesa {
+    display: flex;
+    height: 100px;
+  }
+  header .hamburguesa .navbar {
+    background-color: #BFB0B0;
+    width: 100vw;
+    font-family: "Raleway", sans-serif;
+  }
+  header .hamburguesa .navbar .navbar-brand {
+    font-family: "Great Vibes", cursive;
+    font-size: 30px;
+    text-align: center;
+    padding-block: 0.5rem;
+    color: #F2F2F2;
+  }
+  header .hamburguesa .navbar .navbar {
+    background-color: #BFB0B0;
+  }
+  header .hamburguesa .navbar .offcanvas {
+    background-color: #BFB0B0;
+  }
+  header .hamburguesa .navbar .offcanvas .offcanvas-title {
+    color: #AB5F6A;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  header .hamburguesa .navbar .offcanvas .nav-link {
+    color: #f2f2f2;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  /*Fin de menú hamburguesa*/
+  /*main de Contacto*/
+  .contacto h2 {
+    font-size: 50px;
+  }
+  .contacto section p {
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .contacto section .info-cont i {
+    font-size: 30px;
+    color: #AB5F6A;
+  }
+  .contacto section .info-cont h3 {
+    color: #AB5F6A;
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .contacto section .info-cont h4 {
+    font-size: 17px;
+    font-weight: 550;
+  }
+  .contacto section .info-cont p {
+    font-size: 16px;
+  }
+  .contacto section form {
+    font-size: 18px;
+  }
+  /*fin de main de contacto*/
+} 
+
+/*# sourceMappingURL=estilos.css.map */
