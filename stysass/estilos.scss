@@ -90,8 +90,42 @@ footer{
 /*Fin flecha arriba*/
 /*Main aranceles*/
 .aranceles{
+    font-family: 'Raleway', sans-serif;
     .portada{
         background-image: url(../fotos/communication-1991849_19201.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding-inline: 8%;
+        padding-top: 27%;
+        width: 100%;
+            .cuerpo{
+                background-color: #F2DCE0;
+                border-radius: 15px;
+                padding-inline: 2rem;
+                h1{
+                font-size: 50px;
+                font-weight: 600;
+                color: #AB5F6A;
+                text-align: center;
+                }
+                h2{
+                font-size: 30px;
+                font-weight: 600;    
+                color: #AB5F6A;
+                }
+                p{
+                font-size: 17px;
+                }
+                ul{
+                    font-size: 17px;
+                    li{
+                        list-style: none;
+                    }
+                    i{
+                        padding-right: 0.5rem;
+                    }
+                }
+            }
     }
 }
 /*Fin de main aranceles*/
@@ -171,6 +205,26 @@ footer{
         }
     }
     /*Fin de header*/
+    /*Main aranceles*/
+    .aranceles{
+    .portada{
+            .cuerpo{
+                h1{
+                font-size: 40px;
+                }
+                h2{
+                font-size: 20px;
+                }
+                p{
+                font-size: 17px;
+                }
+                ul{
+                    font-size: 17px;
+                }
+            }
+    }
+}
+/*Fin de main aranceles*/
     /*Contacto*/
     .contacto{
         section{
@@ -196,7 +250,7 @@ footer{
         }
         .hamburguesa{
         display: flex;
-        height: 100px;
+        height: 80px;
         .navbar{
             background-color: #BFB0B0;
             width: 100vw;
@@ -208,7 +262,6 @@ footer{
                 padding-block: 0.5rem;
                 color: #F2F2F2;
             }
-           
             .navbar{
                 background-color: #BFB0B0;
             }
@@ -229,6 +282,20 @@ footer{
         }
     }
     /*Fin de menú hamburguesa*/
+    /*main de aranceles*/
+    .aranceles{
+        .portada{
+                .cuerpo{
+                    h1{
+                    font-size: 25px;
+                    }
+                    h2{
+                        font-size: 20px;
+                        }
+                }
+            }
+    }
+    /*fin de main de aranceles*/
     /*main de Contacto*/
     .contacto{
         h2{
