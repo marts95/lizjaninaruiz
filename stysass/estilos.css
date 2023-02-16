@@ -29,12 +29,13 @@ header .logo {
   text-align: center;
   padding-block: 0.5rem;
 }
-header .logo img {
-  height: 70px;
-}
 header .logo a {
   text-decoration: none;
   color: #F2F2F2;
+}
+header .logo a img {
+  height: 70px;
+  padding-right: 20px;
 }
 header .barra {
   display: flex;
