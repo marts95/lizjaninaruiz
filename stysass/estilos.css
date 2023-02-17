@@ -65,13 +65,10 @@ header .hamburguesa {
 footer {
   background-color: #BFB0B0;
   color: #F2F2F2;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Raleway", sans-serif;
-  padding: 20px;
+  padding: 15px;
   text-align: center;
-}
-footer .redes p {
-  margin-bottom: 10px;
 }
 footer .redes a {
   font-size: 35px;
@@ -94,10 +91,89 @@ footer .redes a {
 
 /*Fin flecha arriba*/
 /*Main servivios*/
+main {
+  font-family: "Raleway", sans-serif;
+  background-color: #F2F2F2;
+}
+main .general {
+  background-image: url(../fotos/brain-73974122.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-inline: 8%;
+  padding-top: 27%;
+  width: 100%;
+}
+main .general .cuerpo {
+  background-color: #F2DCE0;
+  border-radius: 15px;
+  padding-inline: 2rem;
+  padding-block: 1rem;
+}
+main .general .cuerpo h2 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #AB5F6A;
+  text-align: center;
+}
+main .general .cuerpo h3 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #AB5F6A;
+}
+main .general .cuerpo p {
+  font-size: 17px;
+}
+main .general .cuerpo ul {
+  font-size: 17px;
+}
+main .general .cuerpo ul i {
+  padding-right: 0.5rem;
+}
+main .especifico {
+  padding-inline: 10rem;
+  padding-block: 1rem;
+  text-align: justify;
+}
+main .especifico h3 {
+  font-size: 33px;
+  font-weight: 600;
+  color: #AB5F6A;
+  text-align: center;
+}
+main .especifico .descrip {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0.5rem;
+  padding-bottom: 3rem;
+  padding-inline: 2rem;
+}
+main .especifico .descrip img {
+  width: 30vw;
+  height: auto;
+  padding-inline: 2rem;
+}
+main .especifico .descrip p {
+  font-size: 20px;
+}
+main .especifico .descrip1 {
+  display: flex;
+  flex-direction: row;
+}
+main .especifico .descrip1 .minides {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .especifico .descrip1 .minides p {
+  padding-inline: 2rem;
+  font-size: 20px;
+}
+
 /*fin main servicios*/
 /*Main aranceles*/
 .aranceles {
   font-family: "Raleway", sans-serif;
+  background-color: #f2f2f2;
 }
 .aranceles .portada {
   background-image: url(../fotos/communication-1991849_19201.png);
@@ -111,6 +187,7 @@ footer .redes a {
   background-color: #F2DCE0;
   border-radius: 15px;
   padding-inline: 2rem;
+  padding-block: 1rem;
 }
 .aranceles .portada .cuerpo h1 {
   font-size: 50px;
@@ -213,6 +290,20 @@ footer .redes a {
   }
   /*Fin de header*/
   /*Main aranceles*/
+  .general .cuerpo h2 {
+    font-size: 40px;
+  }
+  .general .cuerpo h3 {
+    font-size: 20px;
+  }
+  .general .cuerpo p {
+    font-size: 17px;
+  }
+  .general .cuerpo ul {
+    font-size: 17px;
+  }
+  /*Fin de main aranceles*/
+  /*Main aranceles*/
   .aranceles .portada .cuerpo h1 {
     font-size: 40px;
   }
@@ -277,6 +368,14 @@ footer .redes a {
     font-weight: 500;
   }
   /*Fin de menú hamburguesa*/
+  /*main de aranceles*/
+  .general .cuerpo h1 {
+    font-size: 25px;
+  }
+  .general .cuerpo h2 {
+    font-size: 20px;
+  }
+  /*fin de main de aranceles*/
   /*main de aranceles*/
   .aranceles .portada .cuerpo h1 {
     font-size: 25px;
