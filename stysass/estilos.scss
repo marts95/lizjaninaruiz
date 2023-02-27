@@ -276,6 +276,39 @@ main{
     }
 }
 /*Fin de main contacto*/
+/*Main de contacto enviado*/
+.msg-env{
+    background-color: #BFB0B0;
+    font-family: 'Raleway', sans-serif;
+    height: 33rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .msg-tarj{
+        background-color: #F2F2F2;
+        width: 35%;
+        text-align: center;
+        border-radius: 15px;
+        padding-block: 1rem;
+        h1{
+            color: #AB5F6A;
+            font-weight: 900;
+        }
+        p{
+            font-size: 20px;
+        }
+        a{
+            background-color: #AB5F6A;
+            text-decoration: none;
+            padding-inline: 0.5rem;
+            padding-block: 0.5rem;
+            color: #F2F2F2;
+            border-radius: 5px;
+        }
+    }
+}
+/*Fin main de contacto enviado*/
 /*Media queries*/
 @media screen and (max-width: 980px) {
     /*headear*/
